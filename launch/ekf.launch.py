@@ -12,9 +12,9 @@ def generate_launch_description():
     ekf_yaml = os.path.join(
         get_package_share_directory('robot_localization'), 'params', 'grasshopper_ekf.yaml')
 
-    # Path to the RViz config
+    # Path to the RViz config (placed inside this repo's package)
     rviz_config = os.path.join(
-        get_package_share_directory('odometry_estimator'), 'rviz', 'ekf_odometry.rviz')
+        get_package_share_directory('robot_localization'), 'rviz', 'ekf_odometry.rviz')
 
     return LaunchDescription([
         # ── Launch argument: disable RViz on headless systems ────────────────
