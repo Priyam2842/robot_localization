@@ -1,0 +1,9 @@
+Panels:
+  - Class: "rviz/Displays"
+    Name: "Displays"
+Visualization Manager:
+  Class: ""
+  Name: "Visualization Manager"
+  Enabled: true
+  Global Options:
+    Fixed Frame: odom
